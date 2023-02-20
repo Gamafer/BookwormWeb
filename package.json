@@ -1,0 +1,23 @@
+{
+  "name": "proyectofinalweb",
+  "version": "1.0.0",
+  "description": "a web app to manage your reading",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandraNissan/ProyectoFinalWeb.git"
+  },
+  "author": "Fernando Garrote y Alejandra Nissan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandraNissan/ProyectoFinalWeb/issues"
+  },
+  "homepage": "https://github.com/AlejandraNissan/ProyectoFinalWeb#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

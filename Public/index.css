@@ -1,0 +1,78 @@
+body{
+    background-color: lightyellow;
+}
+
+.nav{
+    background-color: rgb(221, 192, 26);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.nav ul{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li{
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.nav button{
+    background-color: rgb(221, 192, 26);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: medium;
+    margin: 10px;
+}
+.nav button:hover{
+    background-color: rgb(248, 213, 16);
+    padding-right: 25px;
+}
+
+.introHome{
+    background-image: url("https://www.universityofcalifornia.edu/sites/default/files/Library_postcard.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoHome{
+    color: black;
+    background-color: white;
+    opacity: 1;
+    margin: 200px;
+}
+
+form{
+    display: inline-block;
+    width: 100px;
+}
+
+.etiqueta li:hover{
+    background-color:goldenrod;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 5px;
+    background-color: rgba(221, 192, 26, 0.801);
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>BOOKWORM</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <div class= "nav">
+            <ul>
+                <button onclick="buscarLeidos()">Leidos</button>
+                <button onclick="buscarLeyendo()">Leyendo</button>
+                <button onclick="buscarPorLeer()">Por leer</button>
+                <button onclick="location.href = 'agregarLibro.html'">Agregar libro</button>
+            </ul>        
+        </div>
+
+        <div class="introHome" id="introHome">
+            <div class="textoHome">
+                <h1>¿Quiénes somos?</h1>
+                <p>Bookworm es una página web creada en el 2021 para ayudarte a administrar tu lectura. Puedes añadir libros y colocarles su estado de lectura: "leido", "leyendo" y "por leer".</p>
+                <p>Creado por Fernando Garrote y Alejandra Nissan</p>
+                <p>Núnca olvides lo que has leído y lo que te recomiendan leer después.</p>
+            </div>
+        </div>
+        <div id = "leidos" style= "display: none;" class = "etiqueta">
+            <ul id = "lista_leidos">
+
+            </ul>
+        </div>
+        <div id = "leyendo" style= "display: none;" class = "etiqueta">
+            <ul id = "lista_leyendo">
+
+            </ul>
+        </div>
+        <div id = "porLeer" style= "display: none;" class = "etiqueta">
+            <ul id = "lista_por_leer">
+
+            </ul>
+        </div>
+    </body>
+</html>
